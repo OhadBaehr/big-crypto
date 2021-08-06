@@ -1,0 +1,33 @@
+{
+    "name": "big-crypto",
+    "version": "5.2.2",
+    "description": "Big.js fork that have additonal functions suitable for working with cryptocurrencies",
+    "main": "index.cjs",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OhadBaehr/big-crypto.git"
+    },
+    "exports": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "keywords": [
+      "big.js",
+      "crypto",
+      "bignumber",
+      "bigInt",
+      "big",
+      "decimal",
+      "JSBI"
+    ],
+    "author": "Ohad Baehr",
+    "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/OhadBaehr/big-crypto/issues"
+    },
+    "homepage": "https://github.com/OhadBaehr/big-crypto#readme"
+  }
+  
